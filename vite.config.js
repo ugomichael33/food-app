@@ -6,6 +6,6 @@ export default defineConfig(({ mode }) => {
 
   return {
     plugins: [vue()],
-    base: env.VITE_BASE_URL,
+    base: '/',
   };
 });
